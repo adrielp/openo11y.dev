@@ -3,7 +3,7 @@
 ## Introduction
 
 Welcome to the Delivery Metrics demo page! This demo will use [tag-o11y-quickstart-manifests][quickstart] to spin 
-quickly spin up a delivery demo leveraging the [Liatrio OTEL Collector][lotelcol] distribution in an additional profile to provide the following additional capabilities:
+quickly spin up a delivery demo leveraging the [OpenTelemetry Collector][otelcol] in an additional profile to provide the following additional capabilities:
 
 * Leading delivery indicators from GitHub using the Git Hub Receiver
 * DORA Metrics from GitHub through the WebHook Event Receiver
@@ -28,9 +28,8 @@ the below screenshots by navigating to Grafana:
 * Grafana: <http://localhost:8080/grafana/>
 
 
-[quickstart]: https://github.com/liatrio/tag-o11y-quick-start-manifests
-[lotelcol]: https://github.com/liatrio/liatrio-otel-collector
-[loteldemo]: https://github.com/liatrio/opentelemetry-demo
-[loteldemoreqs]: https://github.com/liatrio/opentelemetry-demo/blob/main/docs/delivery.md#pre-requisites
+[quickstart]: https://github.com/adrielp/tag-o11y-quick-start-manifests
+[otelcol]: https://github.com/open-telemetry/opentelemetry-collector-contrib
+[oteldemoproject]: https://github.com/open-telemetry/opentelemetry-demo
 [oteldemo]: https://opentelemetry.io/docs/demo/
 [oteldemoreqs]: https://opentelemetry.io/docs/demo/docker-deployment/#prerequisites

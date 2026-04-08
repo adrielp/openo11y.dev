@@ -26,7 +26,7 @@ forming a team, a group of teams, an entire organization, etc.
 
 ## Mission
 
-As an [open source project](https://github.com/liatrio/openo11y.dev), OpenO11y's mission
+As an [open source project](https://github.com/adrielp/openo11y.dev), OpenO11y's mission
 is to enable everyone to observe and improve their systems by offering socio-technical[^3]
 guidance, reference architectures (coming soon!), tooling recommendations, and demos.
 

@@ -51,7 +51,7 @@ extra_css:
   - "styles/extra.css"
   - "styles/table.css"
 
-repo_url: https://github.com/liatrio/openo11y.dev
+repo_url: https://github.com/adrielp/openo11y.dev
 site_url: https://openo11y.dev
 
 nav:

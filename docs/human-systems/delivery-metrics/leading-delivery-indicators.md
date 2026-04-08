@@ -66,7 +66,7 @@ with other metrics like Pull Request Age to provide additional insight on
 cognitive overheard.
 
 > These metrics can be gathered automatically from GitHub and GitLab through the
-> [Liatrio OTEL Collector][lcol]. Check out the [Liatrio OTEL Demo Fork][demo]
+> [OpenTelemetry Collector Contrib][lcol]. Check out the [OpenTelemetry Demo][demo]
 > to see this metric collection in action.
 
 ## Number of Unique Contributors
@@ -89,7 +89,7 @@ The below chart takes a view based on several common scenarios.
 | Low      | 1 - 3  | 4 - 10   | 11+       |
 
 > These metrics can be gathered automatically from GitHub and GitLab through the
-> [Liatrio OTEL Collector][lcol]. Check out the [Liatrio OTEL Demo Fork][demo]
+> [OpenTelemetry Collector Contrib][lcol]. Check out the [OpenTelemetry Demo][demo]
 > to see this metric collection in action.
 
 ## Code Coverage
@@ -261,7 +261,7 @@ code changes.
 [pp]: ../../engineering-defaults.md#pair-programming
 [tbd]: ../../engineering-defaults.md#trunk-based-development
 [sbd]: ../../engineering-defaults.md#small–batch-delivery
-[demo]: https://github.com/liatrio/opentelemetry-demo/blob/main/docs/delivery.md
-[lcol]: https://github.com/liatrio/liatrio-otel-collector/
+[demo]: https://github.com/open-telemetry/opentelemetry-demo
+[lcol]: https://github.com/open-telemetry/opentelemetry-collector-contrib
 [dora]: https://dora.dev/
 [github]: https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/receiver/githubreceiver
