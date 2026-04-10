@@ -21,6 +21,8 @@ jobs:
 
             - name: build astro site
               uses: withastro/action@v3
+              with:
+                  node-version: 22
 
     go-semantic-release:
         if: ${{ github.ref == 'refs/heads/main' }}
