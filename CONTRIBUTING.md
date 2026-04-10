@@ -22,3 +22,21 @@ change.
 All contributions should be made in a fork, committed to a branch, and reviewed
 with a pull request. Commits and pull requests should follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 guidelines.
+
+## Local Development
+
+The site is built with [Astro](https://astro.build/) using the [Starlight](https://starlight.astro.build/) documentation theme.
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18+)
+
+### Commands
+
+```bash
+npm install        # Install dependencies
+npm run dev        # Start dev server at http://localhost:4321
+npm run build      # Build to ./dist/
+```
+
+Content lives in `src/content/docs/` as Markdown (`.md`) or MDX (`.mdx`) files.

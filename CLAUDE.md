@@ -9,22 +9,25 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ### CI/CD Pipeline
 
 GitHub Actions (`.github/workflows/build.yml`) runs on PRs and pushes to main:
-1. **build** — `make build`, uploads `site/` artifact
+1. **build** — `withastro/action@v3` builds the Astro site, uploads artifact
 2. **go-semantic-release** — Automated versioning with changelog (main branch only)
 3. **deploy** — Publishes to GitHub Pages (main branch only)
 
 ### Dependencies
 
-- Poetry manages Python deps (`pyproject.toml`). CI uses Python 3.13.
-- `Brewfile` provides system deps (poetry, yq) via `make brew`.
+- Node.js v18+, npm manages dependencies (`package.json`).
+- `remark-math` + `rehype-katex` for LaTeX math rendering.
 - Renovate (`renovate.json`) handles automated dependency updates.
 
 ### Content Structure
 
-Docs are organized under `docs/`:
-- `human-systems/` — Delivery metrics, DevEx, satisfaction & well-being
-- `human-systems/delivery-metrics/` — Overview, lagging/leading indicators, DevEx & platform
-- Top-level pages: why-metrics-matter, engineering-defaults, business-systems, delivery-demo, useful-resources, contributing
+Docs are organized under `src/content/docs/`:
+- `technical-systems/` — Placeholder for OTel instrumentation, collection, SLOs
+- `human-systems/` — Measurement ethics, delivery metrics, DevEx, satisfaction
+- `human-systems/delivery-metrics/` — DORA, engineering metrics, DevEx & platform
+- `ai-systems/` — Placeholder for LLM/agent observability
+- `practice/` — Placeholder for ODD, inferable observability
+- Top-level pages: resources, contributing
 
 ### thoughts/ Directory
 

@@ -1,0 +1,65 @@
+---
+title: openo11y.dev
+description: The practitioner's guide to observing systems — technical, human, and AI.
+template: splash
+hero:
+  tagline: The practitioner's guide to observing systems — technical, human, and AI.
+  actions:
+    - text: Start reading
+      link: /human-systems/measurement-ethics/
+      icon: right-arrow
+    - text: View on GitHub
+      link: https://github.com/adrielp/openo11y.dev
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+## What is openo11y.dev?
+
+Observability is more than dashboards and alerts. It's the socio-technical practice of understanding systems through their outputs — and then acting on that understanding. **openo11y.dev** is an open-source practitioner's guide covering the full scope of observability: instrumenting technical systems, ethically measuring human systems, observing AI systems, and honing the practice that connects them all.
+
+> **telemetry + analysis = observability**
+>
+> — *Learning OpenTelemetry*, Ted Young & Austin Parker
+
+This site is opinionated. It's built on the belief that observability is evolving — from siloed signal types toward braided, inferable telemetry that shortens feedback loops and deepens understanding. [OpenTelemetry](https://opentelemetry.io) is the standard at the center of that evolution.
+
+---
+
+## Explore
+
+<CardGrid>
+  <Card title="Technical Systems" icon="setting">
+    Instrumentation, collection, signals, and SLOs. OTel-centric guidance for building observable systems from day one.
+
+    [Get started →](/technical-systems/)
+  </Card>
+
+  <Card title="Human Systems" icon="heart">
+    The ethics of measuring teams, delivery metrics, developer experience, and satisfaction. Observe human systems without destroying trust.
+
+    [Get started →](/human-systems/)
+  </Card>
+
+  <Card title="AI Systems" icon="rocket">
+    LLM observability, agent tracing, eval pipelines, and the gen_ai.* semantic conventions. Observe the systems that are observing themselves.
+
+    [Get started →](/ai-systems/)
+  </Card>
+
+  <Card title="Practice" icon="pencil">
+    Observability-Driven Development, the AI-native inner loop, and inferable observability. The practice that ties everything together.
+
+    [Get started →](/practice/)
+  </Card>
+</CardGrid>
+
+---
+
+## About
+
+**openo11y.dev** is maintained by [Adriel Perkins](https://adrielperkins.dev) — OpenTelemetry maintainer, CI/CD SIG lead, and observability practitioner. Read more on [Substack](https://adrielperkins.substack.com/).
+
+This is an [open-source project](https://github.com/adrielp/openo11y.dev). Contributions are welcome.

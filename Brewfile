@@ -1,3 +1,0 @@
-brew "poetry"
-brew "yq"
-

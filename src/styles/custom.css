@@ -1,0 +1,16 @@
+/* openo11y.dev brand theming
+ * Primary brand color: #24AE1D (green)
+ * Generated from Starlight's color theme editor for WCAG compliance
+ */
+
+:root {
+	--sl-color-accent-low: #1a3d18;
+	--sl-color-accent: #24AE1D;
+	--sl-color-accent-high: #b8e8b5;
+}
+
+:root[data-theme='light'] {
+	--sl-color-accent-low: #c8f0c5;
+	--sl-color-accent: #1a8215;
+	--sl-color-accent-high: #0e4a0b;
+}

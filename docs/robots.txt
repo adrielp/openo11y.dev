@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://openo11y.dev/sitemap.xml
