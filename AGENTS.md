@@ -10,7 +10,7 @@ npm run build    # build to ./dist/
 npm run preview  # preview production build locally
 ```
 
-Node.js v18+. Dependencies managed via npm.
+Node.js v22+. Dependencies managed via npm.
 
 ## Key gotchas
 

@@ -8,7 +8,7 @@ Visit the live site at [openo11y.dev](https://openo11y.dev).
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) (v18+)
+- [Node.js](https://nodejs.org/) (v22+)
 
 ### Commands
 

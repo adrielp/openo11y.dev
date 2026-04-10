@@ -29,7 +29,7 @@ The site is built with [Astro](https://astro.build/) using the [Starlight](https
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) (v18+)
+- [Node.js](https://nodejs.org/) (v22+)
 
 ### Commands
 

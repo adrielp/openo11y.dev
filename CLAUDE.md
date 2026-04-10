@@ -9,13 +9,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ### CI/CD Pipeline
 
 GitHub Actions (`.github/workflows/build.yml`) runs on PRs and pushes to main:
-1. **build** — `withastro/action@v3` builds the Astro site, uploads artifact
+1. **build** — `withastro/action@v6` builds the Astro site, uploads artifact
 2. **go-semantic-release** — Automated versioning with changelog (main branch only)
 3. **deploy** — Publishes to GitHub Pages (main branch only)
 
 ### Dependencies
 
-- Node.js v18+, npm manages dependencies (`package.json`).
+- Node.js v22+, npm manages dependencies (`package.json`).
 - `remark-math` + `rehype-katex` for LaTeX math rendering.
 - Renovate (`renovate.json`) handles automated dependency updates.
 
